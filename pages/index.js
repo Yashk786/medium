@@ -11,7 +11,7 @@ const styles = {
   container: "flex-1 max-w-6xl ml-10",
   postList:
     "flex flex-col gap-3 p-2 md:p-6 md:gap-6 sm:grid-clos-2 lg:grid-clos-3 ",
-    suggestion:"sticky top-0 flex-start"
+  suggestion: "sticky top-0 flex-start",
 };
 
 export default function Home() {
@@ -29,8 +29,8 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <Suggestion className={styles.suggestion}/>
-        </div>
+        <Suggestion className={styles.suggestion} />
+      </div>
     </div>
   );
 }
